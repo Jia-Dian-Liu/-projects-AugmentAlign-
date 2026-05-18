@@ -1,0 +1,26 @@
+# AugmentAlign Slash Commands (Based on spec.md COO Workflow)
+
+[[commands]]
+name = "aa:step1"
+description = "[ 步驟 1：客戶業務診斷與流程掃描 ] — 由 COO 主導。"
+agent = "coo"
+
+[[commands]]
+name = "aa:step2"
+description = "[ 步驟 2：技術規格拆解與任務派發 ] — 由 COO 拆解，派發至 Specialist。"
+agent = "coo"
+
+[[commands]]
+name = "aa:step3"
+description = "[ 步驟 3：三方技術模組整合與測試 ] — 由 COO 監督 Quality Gate。"
+agent = "coo"
+
+[[commands]]
+name = "aa:step4"
+description = "[ 步驟 4：人機協調沙盒演練 (Sandboxing) ] — 由 COO 與客戶員工實測。"
+agent = "coo"
+
+[[commands]]
+name = "aa:step5"
+description = "[ 步驟 5：上線交付與技能重塑手冊培訓 ] — 由 COO 完成最後交付。"
+agent = "coo"
